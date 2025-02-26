@@ -1,5 +1,5 @@
 const efont = 'balatro';
-const font_url = `https://entryfonts.vercel.app/${efont}.woff2`;
+const font_url = `https://entryfonts.vercel.app/fonts/${efont}.woff2`;
 
 (async() => {
     try {
@@ -9,3 +9,4 @@ const font_url = `https://entryfonts.vercel.app/${efont}.woff2`;
     } catch (error) {
         console.error('댓글로 해당 메시지를 적어주세요:', error);
     }
+})();
