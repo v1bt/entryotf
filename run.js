@@ -1,5 +1,5 @@
 const efont = 'balatro';
-const font_url = `https://entryfonts.vercel.app/fonts/${efont}.woff2`;
+const font_url = `https://entryfonts.vercel.app/fonts/${efont}.otf`;
 
 (async() => {
     try {
