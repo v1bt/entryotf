@@ -1,5 +1,5 @@
 # EntryOTF
-![Vercel Deploy](https://deploy-badge.vercel.app/vercel/entryotf)
+![Vercel Deploy](https://deploy-badge.vercel.app/vercel/entryfonts)
 
 엔트리에서 외부 글꼴을 이용해보세요.
 
