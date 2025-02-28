@@ -7,7 +7,7 @@
 ## 제작자
 ### 지원하는 폰트를 사용하려면
 아래 js코드를 콘솔에 붙여넣으세요.<br>
-[여기서 확인 가능합니다.](https://github.com/v1bt/entry-otf/blob/main/examples/support.js)
+[여기서 확인 가능합니다.](https://github.com/v1bt/entryotf/blob/main/examples/support.js)
 
 ```js
 const efont = '원하는 글꼴 이름';
@@ -25,7 +25,7 @@ const font_url = `https://entryfonts.vercel.app/fonts/${efont}.otf`;
 ```
 ### 원하는 폰트를 사용하려면
 직접 OTF 파일을 업로드하고 다운로드하세요.<br>
-[여기서 확인 가능합니다.](https://github.com/v1bt/entry-otf/blob/main/examples/support.js)
+[여기서 확인 가능합니다.](https://github.com/v1bt/entryotf/blob/main/examples/support.js)
 ```js
 const font_url = `OTF 파일 Url`;
 
