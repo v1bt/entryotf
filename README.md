@@ -13,11 +13,11 @@
 const efont = '원하는 글꼴 이름';
 const font_url = `https://entryfonts.vercel.app/fonts/${efont}.otf`;
 
-(async() => {
+(async () => {
     try {
         const font = await new FontFace(efont, `url(${font_url})`).load();
         document.fonts.add(font);
-        Entry.playground.object.entity.setFontType(font)
+        Entry.playground.object.entity.setFontType(efont);
         console.log(`%c EntryOTF %c ${efont} 글꼴이 설치되었어요. %c `, 'background: black; color: white; border-radius: 5px 0px 0px 5px;', 'background: #08c490; color: white; border-radius: 0px 5px 5px 0px;', '')
     } catch (error) {
         console.log(`%c EntryOTF %c ${error} %c `, 'background: black; color: white; border-radius: 5px 0px 0px 5px;', 'background: #f82e3a; color: white; border-radius: 0px 5px 5px 0px;', '')
@@ -26,7 +26,7 @@ const font_url = `https://entryfonts.vercel.app/fonts/${efont}.otf`;
 ```
 ### 원하는 폰트를 사용하려면
 직접 OTF 파일을 업로드하고 다운로드하세요.<br>
-[여기서 확인 가능합니다.](https://github.com/v1bt/entryotf/blob/main/examples/support.js)
+[여기서 확인 가능합니다.](https://github.com/v1bt/entryotf/blob/main/examples/custom.js)
 ```js
 const font_url = `OTF 파일 Url`;
 const efont = '글꼴 이름'
@@ -35,7 +35,7 @@ const efont = '글꼴 이름'
     try {
         const font = await new FontFace(efont, `url(${font_url})`).load();
         document.fonts.add(font);
-        Entry.playground.object.entity.setFontType(font)
+        Entry.playground.object.entity.setFontType(efont)
         console.log(`%c EntryOTF %c ${efont} 글꼴이 설치되었어요. %c `, 'background: black; color: white; border-radius: 5px 0px 0px 5px;', 'background: #08c490; color: white; border-radius: 0px 5px 5px 0px;', '')
     } catch (error) {
         console.log(`%c EntryOTF %c ${error} %c `, 'background: black; color: white; border-radius: 5px 0px 0px 5px;', 'background: #f82e3a; color: white; border-radius: 0px 5px 5px 0px;', '')
